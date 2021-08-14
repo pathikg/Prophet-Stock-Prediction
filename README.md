@@ -16,6 +16,6 @@ https://user-images.githubusercontent.com/55437218/129449510-d6c12e69-3ed6-4944-
 * Forecasting with Deep Learning using LSTM
 
 References :
-https://www.youtube.com/watch?v=0E_31WqVzCY&t=351s
-https://www.youtube.com/watch?v=ng2o98k983k
-https://streamlit.io/sharing
+* https://www.youtube.com/watch?v=0E_31WqVzCY&t=351s
+* https://www.youtube.com/watch?v=ng2o98k983k
+* https://streamlit.io/sharing
