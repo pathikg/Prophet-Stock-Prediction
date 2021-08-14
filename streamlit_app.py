@@ -19,7 +19,7 @@ st.title('Stock Forecast App using Prophet model')
 url = "https://in.finance.yahoo.com/quote/%5ENSEI/components/"
 tickerObj = GetTicker(url)
 tickers = tickerObj.get_tickers()
-selected_stock = st.selectbox('Select dataset for prediction', tickers)
+selected_stock = st.selectbox('Select ticker for prediction', tickers)
 
 # tickers = ('RELIANCE.NS', 'WIPRO.NS', 'INFY.NS', 'TATAPOWER.NS', 'TCS.NS')
 # html_string = '<p style="font-size:0.8rem">top 30 stocks as per the <a href= "https://in.finance.yahoo.com/quote/%5ENSEI/components/" style="text-decoration:none"; target="_blank"> yahoo finance</a></p>'	
@@ -50,7 +50,7 @@ def plot_raw_data():
 		
 plot_raw_data()
 
-n_years = st.slider('Years of prediction:', 1, 5)
+n_years = st.slider('Select years for forecasting:', 1, 5)
 period = n_years * 365
 
 # Predict forecast with Prophet.
