@@ -82,3 +82,7 @@ st.plotly_chart(fig1)
 st.write("Forecast components")
 fig2 = m.plot_components(forecast)
 st.write(fig2)
+
+
+html_string = '<p style="font-size:1rem">made with ❤ by <a href= "https://github.com/Patrickbro13" style="text-decoration:none"; target="_blank">Pathik Ghugare</a></p>'	
+st.markdown(html_string, unsafe_allow_html=True)
