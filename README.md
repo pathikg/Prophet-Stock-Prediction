@@ -34,7 +34,6 @@ $ .\venv\scripts\activate
 ```
 
 * if requirements.txt doesn't work (this happened with me for fbprophet)
-* 
 Try :
 ```
 conda remove pystan fbprophet
