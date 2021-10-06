@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/55437218/129449805-99b7b36c-128f-4b2d-
 
 
 ## Want to check live demo ❔
-[click here](https://share.streamlit.io/patrickbro13/prophet-stock-prediction/main)
+[click here](https://share.streamlit.io/pathikg/prophet-stock-prediction/main)
 
 ## Features to be added 🤔 : 
 * Forecasting with ARIMA
