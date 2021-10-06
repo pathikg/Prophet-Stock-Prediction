@@ -16,7 +16,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Stock Forecast App using Prophet model')
 
-url = "https://in.finance.yahoo.com/quote/%5ENSEI/components/"
+url = "https://sg.finance.yahoo.com/quote/%5ENSEI/components/"
 tickerObj = GetTicker(url)
 tickers = tickerObj.get_tickers()
 selected_stock = st.selectbox('Select ticker for prediction', tickers)
